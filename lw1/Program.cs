@@ -6,17 +6,19 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Пожалуйста, введите значение переменной и нажмите Enter: ");
-            int a = Convert.ToInt32(Console.ReadLine());
-            if ((a % 3 == 0) && (a % 5 == 0)) {
-                Console.WriteLine("fizzbuzz");
+            int[,] nums = {  {1,2,3},
+                             {4,5,6},
+                             {7,8,9},
+            };
+
+            for (int i = 0, sum = 0; i < 3; i++) {
+                sum = 0;
+                for (int j = 0; j < 3; j++) {
+                    sum+=nums[j,i];
+                }
+                Console.WriteLine("Сумма " + (i+1) + " столбца: " + sum);
             }
-            else if (a % 3 == 0) {
-                Console.WriteLine("fizz");
-            }
-            else if (a % 5 == 0) {
-                Console.WriteLine("buzz");
-            }
+            
         }
     }
 }
