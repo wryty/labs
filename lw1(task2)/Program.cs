@@ -11,7 +11,7 @@ namespace MyApp
             int[] a = new int[n];
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("Введите " + (i+1) + " элемент последовательности: ");
+                Console.WriteLine("Введите " + (i + 1) + " элемент последовательности: ");
                 a[i] = Convert.ToInt32(Console.ReadLine());
             }
             int paireqal, pairzero, paireven, pairend5;
