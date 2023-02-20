@@ -16,13 +16,6 @@ namespace MyApp
             paireqal = pairzero = paireven = pairend5 = 0;
             for (int i = 0; i < n; i++)
             {
-                if (i == 0)
-                {
-                    if (a[i] == a[i + 1]) paireqal++;
-                    if (a[i] % 2 == 0 && a[i + 1] % 2 == 0) paireven++;
-                    if (Convert.ToString(a[i]) [Convert.ToString(a[i]).Length - 1] == '5' && (Convert.ToString(a[i + 1]) [Convert.ToString(a[i + 1]).Length - 1] == '5') ) pairend5++;
-                    continue;
-                }
                 if (i == a.Length - 1)
                 {
                     //if (a[i] == a[i - 1]) paireqal++;
