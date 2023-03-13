@@ -9,18 +9,14 @@ namespace ConsoleApplication
             Regex space = new Regex("  ");
 
             string inputString = "hello,        how.     are you! longword";
-            while (true)
+            while (inputString.Contains("  "))
             {
-                if (inputString.Contains("  "))
-                {
-                    inputString = space.Replace(inputString, " ");
-                }
-                else { break; }
-            } // можно так
+                inputString = space.Replace(inputString, " ");
+            }
 
-            inputString = Regex.Replace(inputString, "[-.?!)(,:;'[0-9\\]]", ""); // или так
+            inputString = Regex.Replace(inputString, "[-.?!)(,:;'[0-9\\]]", "");
             string[] wordsString = inputString.Split(" ");
-            int maxLength = -1;
+            int maxLength = wordsString[0].Length;
             string maxLengthWord = "";
             for (int i = 0; i < wordsString.Length; i++)
             {
@@ -32,6 +28,7 @@ namespace ConsoleApplication
             }
 
             Console.WriteLine(maxLengthWord);
+
 
         }
     }
