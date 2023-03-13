@@ -17,7 +17,7 @@ namespace ConsoleApplication
             inputString = Regex.Replace(inputString, "[-.?!)(,:;'[0-9\\]]", "");
             string[] wordsString = inputString.Split(" ");
             int maxLength = wordsString[0].Length;
-            string maxLengthWord = "";
+            string maxLengthWord = wordsString[0];
             for (int i = 0; i < wordsString.Length; i++)
             {
                 if (wordsString[i].Length > maxLength)
