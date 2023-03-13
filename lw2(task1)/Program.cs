@@ -6,7 +6,7 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
-            Regex space = new Regex(" ");
+            Regex space = new Regex("  ");
             string inputFirst = "hello how are you lmao";
             string inputSecond = "hello hello how how are you";
             int wordsCount = 0;
