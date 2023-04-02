@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).csproj.AssemblyReference.cache
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).AssemblyInfoInputs.cache
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).AssemblyInfo.cs
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\labs\lw3(task1)\bin\Debug\net7.0\lw3(task1).exe
+C:\Users\user\Desktop\labs\lw3(task1)\bin\Debug\net7.0\lw3(task1).deps.json
+C:\Users\user\Desktop\labs\lw3(task1)\bin\Debug\net7.0\lw3(task1).runtimeconfig.json
+C:\Users\user\Desktop\labs\lw3(task1)\bin\Debug\net7.0\lw3(task1).dll
+C:\Users\user\Desktop\labs\lw3(task1)\bin\Debug\net7.0\lw3(task1).pdb
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).dll
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\refint\lw3(task1).dll
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).pdb
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\lw3(task1).genruntimeconfig.cache
+C:\Users\user\Desktop\labs\lw3(task1)\obj\Debug\net7.0\ref\lw3(task1).dll

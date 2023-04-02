@@ -10,3 +10,15 @@ C:\Users\user\Desktop\cds\libs\obj\Debug\net7.0\libs.dll
 C:\Users\user\Desktop\cds\libs\obj\Debug\net7.0\refint\libs.dll
 C:\Users\user\Desktop\cds\libs\obj\Debug\net7.0\libs.pdb
 C:\Users\user\Desktop\cds\libs\obj\Debug\net7.0\ref\libs.dll
+C:\Users\user\Desktop\labs\libs\bin\Debug\net7.0\libs.deps.json
+C:\Users\user\Desktop\labs\libs\bin\Debug\net7.0\libs.dll
+C:\Users\user\Desktop\labs\libs\bin\Debug\net7.0\libs.pdb
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.AssemblyInfo.cs
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.dll
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\refint\libs.dll
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\libs.pdb
+C:\Users\user\Desktop\labs\libs\obj\Debug\net7.0\ref\libs.dll

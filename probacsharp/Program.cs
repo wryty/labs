@@ -12,6 +12,7 @@ namespace ConsoleApplication
             Console.WriteLine(libs.Class1.LTrim(str1));
             string str2 = "     hello      ";
             Console.WriteLine(libs.Class1.Trim(str2));
+
         }
 
     }
