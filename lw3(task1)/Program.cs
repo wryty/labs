@@ -4,14 +4,13 @@ namespace ConsoleApplication
 {
     class Program
     {
-        static void PrintReverse(ref int[] arr)
-        {
-            for (int i = arr.Length - 1; i >= 0; i--) Console.WriteLine(arr[i]);
-        }
+        static int[] MakeReverse(ref int[] arr) => arr.Reverse().ToArray<int>();
         static void Main(string[] args)
         {
             int[] arr = { 1, 2, 3 };
-            PrintReverse(ref arr);
+            int[] newarr = MakeReverse(ref arr);
+            foreach (int i in newarr) Console.WriteLine(i);
+
         }
 
     }
