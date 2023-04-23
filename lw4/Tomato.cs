@@ -20,8 +20,11 @@ namespace proba.Tomatoes
 
         public void Grow()
         {
-            if (this.state == States.RED) return;
-            else this.state++;
+            if (this.state == States.RED)
+            {
+                return;
+            }
+            this.state++;
         }
         public bool IsRipe() => this.state == States.RED;
     }
