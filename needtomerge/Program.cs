@@ -8,6 +8,8 @@ namespace needtomerge
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(123123123);
+
+            int a = 123321123;
         }
     }
 }
