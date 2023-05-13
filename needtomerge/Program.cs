@@ -7,10 +7,8 @@ namespace needtomerge
         static void Main(string[] args) 
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine(123123123);
-
-            int a = 5;
-            int a = 123321123;
+            int abc = 123;
+            
         }
     }
 }
