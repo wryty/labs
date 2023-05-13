@@ -1,0 +1,15 @@
+C:\Users\wryty\Desktop\labs\needtomerge\bin\Debug\net7.0\needtomerge.exe
+C:\Users\wryty\Desktop\labs\needtomerge\bin\Debug\net7.0\needtomerge.deps.json
+C:\Users\wryty\Desktop\labs\needtomerge\bin\Debug\net7.0\needtomerge.runtimeconfig.json
+C:\Users\wryty\Desktop\labs\needtomerge\bin\Debug\net7.0\needtomerge.dll
+C:\Users\wryty\Desktop\labs\needtomerge\bin\Debug\net7.0\needtomerge.pdb
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.csproj.AssemblyReference.cache
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.AssemblyInfoInputs.cache
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.AssemblyInfo.cs
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.csproj.CoreCompileInputs.cache
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.dll
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\refint\needtomerge.dll
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.pdb
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\needtomerge.genruntimeconfig.cache
+C:\Users\wryty\Desktop\labs\needtomerge\obj\Debug\net7.0\ref\needtomerge.dll
