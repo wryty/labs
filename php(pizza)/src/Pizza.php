@@ -1,4 +1,5 @@
 <?php
+namespace PizzaStore;
 
 abstract class Pizza
 {

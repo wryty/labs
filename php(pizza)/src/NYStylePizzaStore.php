@@ -1,5 +1,7 @@
 <?php
-
+namespace PizzaStore;
+use PizzaStore\Pizza;
+use PizzaStore\PizzaStore;
 class NYStylePizzaStore extends PizzaStore
 {
     public function orderPizza(string $type): void
@@ -17,7 +19,6 @@ class NYStylePizzaStore extends PizzaStore
             case 'margherita':
                 return new MargheritaPizza();
             default:
-                throw new InvalidArgumentException("Неизвестный тип пиццы: $type");
         }
     }
 }

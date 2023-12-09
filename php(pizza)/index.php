@@ -2,8 +2,9 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-use PizzaLibrary\NYStylePizzaStore;
-use PizzaLibrary\ChicagoStylePizzaStore;
+use PizzaStore\NYStylePizzaStore;
+use PizzaStore\ChicagoStylePizzaStore;
+
 
 $nyStore = new NYStylePizzaStore();
 $chicagoStore = new ChicagoStylePizzaStore();

@@ -1,5 +1,7 @@
 <?php
 
+namespace PizzaStore;
+use PizzaStore\Pizza;
 class PepperoniPizza extends Pizza
 {
     public function prepare(): void
