@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'labs/pizza-library',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '710a37024558f1ba2a9f8603add18de0ebe4ca20',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'labs/pizza-library' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '710a37024558f1ba2a9f8603add18de0ebe4ca20',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '1.10.48',
+            'version' => '1.10.48.0',
+            'reference' => '087ed4b5f4a7a6e8f3bbdfbfe98ce5c181380bc6',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'squizlabs/php_codesniffer' => array(
+            'pretty_version' => '3.8.0',
+            'version' => '3.8.0.0',
+            'reference' => '5805f7a4e4958dbb5e944ef1e6edae0a303765e7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../squizlabs/php_codesniffer',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+    ),
+);
