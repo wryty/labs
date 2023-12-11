@@ -12,8 +12,8 @@ class PepperoniPizza extends Pizza
     public function __construct() 
     {
         $this->name = "Пепперони";
-        $this->sause = "Соусы";
-        $this->toppings = ["1","3"];
+        $this->sause = "Соус пример для Пепперони";
+        $this->toppings = ["топпинг пример 1","топпинг пример 2"];
     }
 
     public function prepare(): void
