@@ -1,0 +1,22 @@
+{
+    "name": "labs/user-service",
+    "description": "user-service lw",
+    "authors": [
+        {
+            "name": "wryty",
+            "email": "ikotytes@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UserService\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "config": {
+        "secure-http": false
+    }
+}
