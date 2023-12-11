@@ -3,9 +3,9 @@ namespace PizzaStore;
 
 abstract class Pizza
 {
-    protected string $name;
-    protected string $sauce;
-    protected array $toppings;
+    protected ?string $name;
+    protected ?string $sauce;
+    protected ?array $toppings;
 
     abstract public function prepare(): void;
 

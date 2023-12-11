@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "PizzaLibrary\\": "src/"
+            "PizzaStore\\": "src/"
         }
     },
     "require-dev": {
