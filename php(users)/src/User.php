@@ -1,4 +1,5 @@
 <?php
+
 namespace UserService;
 
 use DateTime;
@@ -8,7 +9,6 @@ class User
     private string $username;
     private string $password;
     private DateTime $birthday;
-
     public function __construct(string $username, string $password, DateTime $birthday)
     {
         $this->username = $username;
