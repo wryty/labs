@@ -4,9 +4,9 @@ namespace PizzaStore;
 
 class MargheritaPizza extends Pizza
 {
-    protected ?string $name = null;
-    protected ?string $sauce = null;
-    protected ?array $toppings = null;
+    protected string $name;
+    protected string $sauce;
+    protected array $toppings;
     public function __construct()
     {
         $this->name = "Маргарита";
