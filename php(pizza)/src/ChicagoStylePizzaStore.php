@@ -3,8 +3,6 @@
 namespace PizzaStore;
 
 use _PHPStan_f73a165d5\Symfony\Component\Console\Exception\CommandNotFoundException;
-use PizzaStore\Pizza;
-use PizzaStore\PizzaStore;
 
 class ChicagoStylePizzaStore extends PizzaStore
 {
