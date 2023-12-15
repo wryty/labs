@@ -1,7 +1,11 @@
 <?php
+
 namespace PizzaStore;
+
+use _PHPStan_f73a165d5\Symfony\Component\Console\Exception\CommandNotFoundException;
 use PizzaStore\Pizza;
 use PizzaStore\PizzaStore;
+
 class ChicagoStylePizzaStore extends PizzaStore
 {
     public function orderPizza(string $type): void
@@ -13,12 +17,10 @@ class ChicagoStylePizzaStore extends PizzaStore
 
     protected function createPizza(string $type): Pizza
     {
-        switch ($type) {
-            case 'pepperoni':
-                return new PepperoniPizza();
-            case 'margherita':
-                return new MargheritaPizza();
-            default:
-        }
+        return match ($type) {
+            'pepperoni' => new PepperoniPizza(),
+            'margherita' => new MargheritaPizza(),
+            default => throw new CommandNotFoundException("Pizza not found"),
+        };
     }
 }
